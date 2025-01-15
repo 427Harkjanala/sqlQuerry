@@ -1,0 +1,88 @@
+### Where Clause
+1. Retrieve all employees whose age is greater than 30 from the employees table.
+2. Find all orders from the orders table where the total amount is less than 500.
+
+---
+
+### Like
+3. Fetch all products from the products table where the product name starts with 'A'.
+4. Retrieve all customers from the customers table whose email ends with '@gmail.com'.
+
+---
+
+### Between
+5. Find all orders from the orders table where the order date is between '2025-01-01' and '2025-01-31'.
+6. Retrieve all employees whose salary is between 40,000 and 60,000 from the employees table.
+
+---
+
+### Is Null / Is Not Null
+7. List all customers from the customers table where the phone number is NULL.
+8. Find all records in the orders table where the shipping address is NOT NULL.
+
+---
+
+### Aggregate Functions
+9. Calculate the total salary of all employees in the employees table.
+10. Find the maximum, minimum, and average price of products in the products table.
+11. Count the total number of orders placed in the orders table.
+
+---
+
+### Alter Table
+12. Add a new column date_of_birth to the employees table.
+13. Modify the data type of the phone column in the customers table to VARCHAR(15).
+
+---
+
+### Update Set
+14. Update the salary of all employees in the employees table by 10%.
+15. Set the status of all orders in the orders table to 'completed' where the total amount is greater than 1000.
+
+---
+
+### Limit
+16. Retrieve the top 5 highest-paid employees from the employees table.
+17. Fetch the first 10 records from the products table.
+
+---
+
+### Order By
+18. List all customers in the customers table sorted by their last name in ascending order.
+19. Fetch all products from the products table ordered by price in descending order.
+
+---
+
+### Alias
+20. Retrieve all employees with an alias for the full_name column as "Employee Name".
+21. Display all products with an alias for the price column as "Product Cost".
+
+---
+
+### Joins
+22. Fetch all orders along with the customer names from the orders and customers tables using an INNER JOIN.
+23. List all employees and their respective department names using a LEFT JOIN on the employees and departments tables.
+
+---
+
+### Group By
+24. Group all orders in the orders table by customer ID and calculate the total order amount for each customer.
+25. Find the number of employees in each department from the employees table grouped by department.
+
+---
+
+### Having
+26. Retrieve all customers who have placed more than 5 orders from the orders table (use GROUP BY and HAVING).
+27. Fetch departments from the departments table where the average salary of employees is greater than 50,000.
+
+---
+
+### Constraints
+28. Create a table users with constraints for primary key on user_id and unique constraint on email.
+29. Add a foreign key constraint to the orders table referencing the customers table.
+
+---
+
+### Union / Union All
+30. Retrieve all distinct product names from the products and backup_products tables using UNION.
+31. Fetch all product names (including duplicates) from the products and backup_products tables using UNION ALL.
